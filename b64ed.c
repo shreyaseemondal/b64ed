@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define usage() do{ \
+#define message() do{ \
   fprintf(stderr, "usage: \nb64ed [-e|-d] <string>\nb64ed <string> (assumes encoding mode)\n"); \
   exit(EXIT_FAILURE); \
 } while(0)
